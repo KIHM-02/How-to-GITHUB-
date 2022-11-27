@@ -17,6 +17,10 @@ int main()
         case 1:
             explicacion_de_creacion();
         break;
+
+        case 2:
+            printf("ejemplo");
+        break;
         
         default: break;
     }
