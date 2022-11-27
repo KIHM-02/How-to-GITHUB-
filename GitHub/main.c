@@ -1,16 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-
+#include "agregar_usuarios.h"
 #include "crear_repositorio.h"
+
+#include <conio.h>
 
 int main()
 {
     int opcion = 0;
 
-    printf("Ingrese la opcion deseada:\n 1)Como crear un repositorio\n 5)Salir\n");
+    printf("Ingrese la opcion deseada:\n 1)Como crear un repositorio\n 2)Como agregar un companiero\n 5)Salir\n");
         scanf("%d", &opcion);
-
 
     switch (opcion)
     {
@@ -19,13 +17,12 @@ int main()
         break;
 
         case 2:
-            printf("ejemplo");
+            agregar_usuarios_repositorio();
         break;
         
         default: break;
     }
 
-    
     printf("\n----*Hasta luego***----\n");
     getch();
     return 0;
