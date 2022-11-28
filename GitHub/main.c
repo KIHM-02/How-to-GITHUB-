@@ -2,6 +2,7 @@
 #include "crear_repositorio.h"
 #include "crear_pull_request.h"
 #include "historial_cambios.h"
+#include "solidifica_trabajo_equipo.h"
 
 #include <conio.h>
 #include <stdbool.h>
@@ -13,7 +14,7 @@ int main()
 
     while (ban==false)
     {
-        printf("Ingrese la opcion deseada:\n 1)Como crear un repositorio\n 2)Como agregar un companiero\n 3)Como hacer Commits y Pull request\n 4)Historial de Cambios\n 8)Salir\n\n");
+        printf("Ingrese la opcion deseada:\n 1)Como crear un repositorio\n 2)Como agregar un companiero\n 3)Como hacer Commits y Pull request\n 4)Historial de Cambios\n 6)Solidifica como hacer el trabajo en equipo\n 8)Salir\n\n");
         
         scanf("%d", &opcion);
 
@@ -40,7 +41,7 @@ int main()
                 break;
 
                 case 6:
-                    //poner aqui la funcion de la libreria ROMAN
+                    solidifica_trabajo_equipo();
                 break;
 
                 case 7:
