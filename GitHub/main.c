@@ -3,6 +3,7 @@
 #include "crear_pull_request.h"
 #include "historial_cambios.h"
 #include "solidifica_trabajo_equipo.h"
+#include "estadisticas_p.h"
 
 #include <conio.h>
 #include <stdbool.h>
@@ -37,7 +38,7 @@ int main()
                 break;
 
                 case 5:
-                    //poner aqui la funcion de la libreria YAEL
+                    ver_estadisticas_proyecto();
                 break;
 
                 case 6:
