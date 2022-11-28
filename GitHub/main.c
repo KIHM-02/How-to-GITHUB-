@@ -1,5 +1,6 @@
 #include "agregar_usuarios.h"
 #include "crear_repositorio.h"
+#include "crear_pull_request.h"
 #include "historial_cambios.h"
 
 #include <conio.h>
@@ -27,7 +28,7 @@ int main()
                 break;
 
                 case 3:
-                //poner aqui la libreria de COMMITS y pull request
+                    creacion_de_pullRequest();
                 break;
 
                 case 4:
