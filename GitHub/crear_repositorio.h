@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 
 void explicacion_de_creacion()
 {
@@ -14,5 +16,5 @@ void explicacion_de_creacion()
     printf("\nPor ultimo, agregamos el nombre del proyecto, la descripcion y creamos el repositorio\n");
     system("imagenes\\creacion_repositorio3.png");
     system("pause");
-    
+    system("cls");
 }

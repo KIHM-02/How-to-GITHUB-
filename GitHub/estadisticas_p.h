@@ -27,5 +27,5 @@ void ver_estadisticas_proyecto()
     printf("En el apartado de 'Traffic' podemos observar unas graficas donde observamos las visitas al proyecto y copias.\n\n");
     system("imagenes\\estadisticas_p6.png");
     system("pause");
-
+    system("cls");
 }

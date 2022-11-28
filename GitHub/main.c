@@ -4,18 +4,19 @@
 #include "historial_cambios.h"
 #include "solidifica_trabajo_equipo.h"
 #include "estadisticas_p.h"
+#include "ventajas_uso.h"
 
 #include <conio.h>
 #include <stdbool.h>
 int main()
 {
     int opcion = 0;
-    
+
     bool ban = false;  
 
     while (ban==false)
     {
-        printf("Ingrese la opcion deseada:\n 1)Como crear un repositorio\n 2)Como agregar un companiero\n 3)Como hacer Commits y Pull request\n 4)Historial de Cambios\n 6)Solidifica como hacer el trabajo en equipo\n 8)Salir\n\n");
+        printf("Ingrese la opcion deseada:\n1)Como crear un repositorio\n2)Como agregar un compa%cero\n3)Como hacer Commits y Pull request\n4)Historial de Cambios\n5)Datos que pueden visualizarse en estadisticas del proyecto\n6)Solidifica como hacer el trabajo en equipo\n7)Beneficios al usar github\n8)Salir\n\nIngrese la opcion: ",-92);
         
         scanf("%d", &opcion);
 
@@ -46,7 +47,7 @@ int main()
                 break;
 
                 case 7:
-                    
+                    resolver_problemas_repositorio();
                 break;
                 
                 case 8:
@@ -55,11 +56,8 @@ int main()
                 
                 default: break;
             }
-
     }
     
-    
-
     system("cls");
     printf("\n----***Hasta luego***----\n");
     getch();

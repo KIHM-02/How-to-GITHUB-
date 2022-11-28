@@ -19,4 +19,5 @@ void agregar_usuarios_repositorio()
 
     printf("\nAhora solo esperamos a que confirmen la solicitud\n");
     system("pause");
+    system("cls");
 }
