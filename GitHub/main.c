@@ -16,7 +16,7 @@ int main()
 
     while (ban==false)
     {
-        printf("Ingrese la opcion deseada:\n1)Como crear un repositorio\n2)Como agregar un compa%cero\n3)Como hacer Commits y Pull request\n4)Historial de Cambios\n5)Datos que pueden visualizarse en estadisticas del proyecto\n6)Solidifica como hacer el trabajo en equipo\n7)Beneficios al usar github\n8)Salir\n\nIngrese la opcion: ",-92);
+        printf("Ingrese la opcion deseada:\n1)Como crear un repositorio\n2)Como agregar un compa%cero\n3)Como hacer Commits y Pull request\n4)Historial de Cambios\n5)Datos que pueden visualizarse en estadisticas del proyecto\n6)Solidifica como hacer el trabajo en equipo\n7)Beneficios al usar github\n8)Ver video sobre git y github\n9)Ver presentacion sobre github\n10)Salir\n\nIngrese la opcion: ",-92);
         
         scanf("%d", &opcion);
 
@@ -49,8 +49,16 @@ int main()
                 case 7:
                     resolver_problemas_repositorio();
                 break;
-                
+
                 case 8:
+                    system("presentacion\\Git_Github.mp4");
+                break;
+
+                case 9:
+                    system("presentacion\\Implementacion_SCV_GIT_22310408.pdf");
+                break;
+                
+                case 10:
                     ban = true;
                 break;
                 
